@@ -8,9 +8,13 @@ is the third file down: **the summariser is checked against its source**, becaus
 everything downstream reads the summary and nobody rereads the article.
 
 ⚠️ **Status: this ran as a real practice from November 2025 to February 2026 —
-31 entries and four published editions — and has been parked since.** The code
-and the schema are what is public here; the entries were personal and are not.
-Three example entries stand in for them.
+31 entries and four published editions.**
+
+**Parked June 2026.** Continuous landscape scanning is a discovery-stage input —
+it earns its keep while the question is still *what to build*. The projects these
+entries fed moved past that stage, and the tagging that made an entry findable had
+nothing current to point at. The code and the schema outlived the practice, which
+is why they are here and the entries are not. Three example entries stand in.
 
 ---
 
