@@ -1,0 +1,32 @@
+[
+  {
+    "id": "faithful",
+    "expect": [],
+    "source": "A study of 240 support agents found that agents using the assistant resolved tickets 14% faster on average. The authors note the effect was concentrated among agents with less than six months of tenure and did not reach significance for experienced agents.",
+    "summary": "In a study of 240 support agents, those using the assistant resolved tickets 14% faster on average. The effect was concentrated among newer agents and was not significant for experienced ones."
+  },
+  {
+    "id": "invented-number",
+    "expect": ["invented_number"],
+    "source": "A study of 240 support agents found that agents using the assistant resolved tickets faster on average.",
+    "summary": "A study of 240 support agents found the assistant made them 35% faster."
+  },
+  {
+    "id": "dropped-hedge",
+    "expect": ["dropped_hedge"],
+    "source": "The preliminary results suggest the tool may reduce onboarding time, though the sample was small and self-reported.",
+    "summary": "The tool reduces onboarding time."
+  },
+  {
+    "id": "inverted-finding",
+    "expect": ["inverted_finding"],
+    "source": "Adoption rose sharply in the first month and then fell back to baseline by week twelve.",
+    "summary": "Adoption rose sharply and was sustained through week twelve."
+  },
+  {
+    "id": "compression-is-not-a-failure",
+    "expect": [],
+    "source": "The report covers five sectors. In manufacturing, uptake was fastest. In retail it lagged. Healthcare, education and logistics fell in between, with detailed regional breakdowns for each.",
+    "summary": "Across five sectors, uptake was fastest in manufacturing and slowest in retail."
+  }
+]

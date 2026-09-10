@@ -1,0 +1,13 @@
+# Topics an entry can be tagged to. Copy to topics.yaml and edit.
+# Keep these few and stable. A tag vocabulary that grows every week stops
+# being a retrieval index and becomes a second pile to search.
+
+topics:
+  - name: general
+    about: Broad developments, policy, tools, research with no closer home.
+
+  - name: tooling
+    about: Things that change how the work gets done day to day.
+
+  - name: measurement
+    about: Evaluation, benchmarks, and claims about whether something worked.

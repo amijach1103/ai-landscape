@@ -1,0 +1,4 @@
+topics.yaml
+__pycache__/
+*.pyc
+.venv/

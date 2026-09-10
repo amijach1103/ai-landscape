@@ -1,0 +1,274 @@
+body {
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.container {
+    padding: 16px;
+}
+
+h2 {
+    margin: 0 0 16px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0066cc;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 8px;
+}
+
+h3 {
+    margin: 0 0 8px 0;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #666;
+}
+
+.current-page {
+    background: #f5f5f5;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.title-display {
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.url-display {
+    font-size: 11px;
+    color: #666;
+    word-break: break-all;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.btn {
+    flex: 1;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-primary {
+    background: #0066cc;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #0052a3;
+}
+
+.btn-secondary {
+    background: #666;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: #555;
+}
+
+.btn-outline {
+    background: white;
+    color: #0066cc;
+    border: 1px solid #0066cc;
+}
+
+.btn-outline:hover {
+    background: #f0f7ff;
+}
+
+.btn-accent {
+    background: #28a745;
+    color: white;
+}
+
+.btn-accent:hover {
+    background: #218838;
+}
+
+.btn-cancel {
+    background: #dc3545;
+    color: white;
+}
+
+.btn-cancel:hover {
+    background: #c82333;
+}
+
+.stats {
+    background: #f0f7ff;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stat-item {
+    flex: 1;
+}
+
+.stat-number {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: #0066cc;
+    line-height: 1;
+}
+
+.stat-label {
+    display: block;
+    font-size: 11px;
+    color: #666;
+    margin-top: 4px;
+    text-transform: uppercase;
+}
+
+.note-section {
+    margin-bottom: 16px;
+}
+
+.note-section textarea {
+    width: 100%;
+    min-height: 80px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 13px;
+    margin-bottom: 8px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.saved-list {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.saved-item {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.saved-item:last-child {
+    border-bottom: none;
+}
+
+.saved-item-title {
+    font-weight: 500;
+    margin-bottom: 4px;
+    padding-right: 60px;
+}
+
+.saved-item-url {
+    font-size: 11px;
+    color: #666;
+    word-break: break-all;
+}
+
+.saved-item-note {
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+    margin-top: 4px;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #c82333;
+}
+
+.export-output {
+    margin-bottom: 16px;
+}
+
+.export-output textarea {
+    width: 100%;
+    min-height: 200px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    margin-bottom: 8px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.export-actions {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.export-actions .btn {
+    flex: 1;
+    font-size: 12px;
+    padding: 8px 12px;
+}
+
+.feedback {
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+.feedback.success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.feedback.error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.hidden {
+    display: none;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 20px;
+    color: #999;
+    font-style: italic;
+}
