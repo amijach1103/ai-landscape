@@ -114,3 +114,7 @@ No dependencies, standard library only. A tool that needs a virtualenv to save a
 link is a tool nobody uses twice.
 
 MIT.
+
+---
+
+The thinking behind this is at [aguedaschwartz.com/practice](https://aguedaschwartz.com/practice).
