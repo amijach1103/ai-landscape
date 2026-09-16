@@ -53,6 +53,23 @@ That run uses a stub grader that finds nothing. It scores 60% — passing every
 case with nothing to find and failing the rest. **That is what having no check
 looks like**, and it is the number a real grader has to beat.
 
+### The fixtures
+
+Five labelled cases in `fixtures/faithfulness.json`. Three are failures the
+grader has to catch. Two are summaries it has to leave alone.
+
+| Fixture | Expected | Source says | Summary says |
+|---|---|---|---|
+| `invented-number` | `invented_number` | resolved tickets "faster on average" | "made them 35% faster" |
+| `dropped-hedge` | `dropped_hedge` | "preliminary results suggest the tool may reduce onboarding time, though the sample was small" | "The tool reduces onboarding time." |
+| `inverted-finding` | `inverted_finding` | adoption "fell back to baseline by week twelve" | "was sustained through week twelve" |
+| `faithful` | nothing | — | keeps the hedge and the scope |
+| `compression-is-not-a-failure` | nothing | five sectors, described individually | "fastest in manufacturing and slowest in retail" |
+
+The last one is the one that matters. A grader tuned only on failures learns to
+flag anything shorter than its source, and compression is the whole job. Without
+a negative control, a faithfulness check quietly becomes a length check.
+
 ---
 
 ## The entry format, and why it has two sections
